@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="3dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="123"
+            android:layout_marginStart="12dp"
+            android:id="@+id/sno"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/black"
+            android:fontFamily="@string/bold"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/sno"
+            android:id="@+id/contryflag"
+            android:layout_toRightOf="@+id/sno" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imdia"
+            android:layout_toEndOf="@id/contryflag"
+            android:layout_marginStart="12dp"
+            android:id="@+id/coname"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/bold"
+            android:layout_toRightOf="@id/contryflag"
+            android:layout_marginLeft="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2454545"
+            android:id="@+id/ContryCase"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/bold"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

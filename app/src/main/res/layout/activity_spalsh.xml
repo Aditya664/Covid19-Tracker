@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_primery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spalsh">
+
+         <ImageView
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:layout_margin="25dp"
+             android:layout_alignParentEnd="true"
+             android:id="@+id/virus1"
+             android:src="@drawable/ic_virus"
+             android:layout_alignParentRight="true" />
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/ic_virus" />
+
+            <TextView
+                android:id="@+id/app"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="280dp"
+                android:fontFamily="@string/bold"
+                android:gravity="center_horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titlesize2"/>
+
+
+
+
+
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Large.DoubleBounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:SpinKit_Color="@color/red" />
+
+
+</RelativeLayout>

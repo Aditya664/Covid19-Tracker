@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize0">14sp</dimen>
+    <dimen name="textsize">16sp</dimen>
+    <dimen name="titlesize">20sp</dimen>
+    <dimen name="titlesize2">28sp</dimen>
+    <dimen name="titlesize3">36sp</dimen>
+    <dimen name="cardwidth">170dp</dimen>
+    <dimen name="cardwidth2">340dp</dimen>
+</resources>
